@@ -76,7 +76,7 @@ ERROR <br/>
 Determinant operator) <br/>
 ___
 [1 -2.5 3;4 5.25 6;7 8 9.12] <br/>
-* <br/>
+\* <br/>
 [3 4.2 10.2;12 -1 0] <br/>
 ERROR <br/>
 >(error in the operator requirement, number of columns of the first matrix is
