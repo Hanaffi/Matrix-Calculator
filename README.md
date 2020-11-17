@@ -43,45 +43,45 @@ asked to enter an operator from the list mentioned eariler
 
 
 #####  Input / Output Samples
-[1 -2.5 3;4 5.25 6;7 8 9.12]
-\+
-[3 4.2 10.2;12 -1 0;67 2 13]
-[4 1.7 13.2;16 4.25 6;74 10 22.12]
+[1 -2.5 3;4 5.25 6;7 8 9.12] <br/>
+\+ <br/>
+[3 4.2 10.2;12 -1 0;67 2 13] <br/>
+[4 1.7 13.2;16 4.25 6;74 10 22.12] <br/>
 ___
-[1 -2.5;4 5.2]
-^
-2
-[-9 -15.5;24.8 17.04]
+[1 -2.5;4 5.2] <br/>
+^ <br/>
+2 <br/> 
+[-9 -15.5;24.8 17.04] <br/>
 ___
-[1 -2.5;4 5.2]
-T
-[1 4;-2.5 5.2]
+[1 -2.5;4 5.2] <br/>
+T <br/>
+[1 4;-2.5 5.2] <br/>
 ___
-[1 -2.5;4 5.2]
-D
-15.2
+[1 -2.5;4 5.2] <br/>
+D <br/>
+15.2 <br/>
 ___
-[1 -2.5;4 5.2]
-I
-[0.3421 0.1645;-0.2632 0.0658]
+[1 -2.5;4 5.2] <br/> 
+I <br/>
+[0.3421 0.1645;-0.2632 0.0658] <br/>
 ___
-[1 -2.5 10;4 5.2] 
-ERROR
->(In consistant number of columns)
+[1 -2.5 10;4 5.2]  <br/>
+ERROR <br/>
+>(In consistant number of columns) <br/>
 ___
-[1 -2.5 10;4 5.2 12]
-D
-ERROR
+[1 -2.5 10;4 5.2 12] <br/>
+D <br/>
+ERROR <br/>
 >(error in the operator requirement, non-square matrix is invalid for
-Determinant operator)
+Determinant operator) <br/>
 ___
-[1 -2.5 3;4 5.25 6;7 8 9.12]
-*
-[3 4.2 10.2;12 -1 0]
-ERROR
+[1 -2.5 3;4 5.25 6;7 8 9.12] <br/>
+* <br/>
+[3 4.2 10.2;12 -1 0] <br/>
+ERROR <br/>
 >(error in the operator requirement, number of columns of the first matrix is
 not the same as number of rows of the second matrix, this is invalid for Multiply
-operator)
+operator) <br/>
 ___
 
 
